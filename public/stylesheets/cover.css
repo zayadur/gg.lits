@@ -6,3 +6,24 @@ body {
 .center {
   text-align: center;
 }
+
+.footer {
+  bottom: 0px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.responsive-video {
+  overflow: hidden;
+  padding-bottom: 56.25%; /* emulates 16:9 aspect ratio */
+  position: relative;
+  height: 0;
+}
+.responsive-video iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

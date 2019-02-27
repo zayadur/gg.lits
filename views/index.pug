@@ -1,8 +1,12 @@
 extends layout
 
 block content
-  img(src='/images/logoLong-0.1.jpg', width='100%')
-  p.center
+  //img(src='/images/logoLong-0.1.jpg', width='100%')
+  br
+  br
+  p.center.responsive-video
+    iframe(width='560', height='315', src='https://www.youtube.com/embed/NejWLdLkz08', frameborder='1', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='1')
+  p.footer
     a(class='btn btn-discord' href='http://discord.lits.gg' target='_blank')
       i(class='fab fa-discord')
     | 

@@ -7,6 +7,13 @@
 var app = require('../app');
 var debug = require('debug')('gg.lits:server');
 var http = require('http');
+var https = require('https');
+var fs = require('fs');
+
+var credentials = {
+  key: fs.readFileSync('/path/to/privkey'),
+  cert: fs.readFileSync('/path/to/cert')
+};
 
 /**
  * Get port from environment and store in Express.
@@ -20,12 +27,14 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
+var cert = https.createServer(credentials, app);
 
 /**
  * Listen on provided port, on all network interfaces.
  */
 
 server.listen(port);
+cert.listen(443);
 server.on('error', onError);
 server.on('listening', onListening);
 
