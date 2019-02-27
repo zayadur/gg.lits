@@ -1,2 +1,4 @@
 *.log
 desktop.ini
+node_modules
+package.json
