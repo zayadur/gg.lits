@@ -1,0 +1,96 @@
+body {
+  color: #fff;
+}
+
+/* Discord button */
+.btn-discord { 
+  color: #FFFFFF; 
+  background-color: #7289DA; 
+  border-color: #7289DA; 
+} 
+ 
+.btn-discord:hover, 
+.btn-discord:focus, 
+.btn-discord:active, 
+.btn-discord.active, 
+.open .dropdown-toggle.btn-discord { 
+  color: #FFFFFF; 
+  background-color: #4F67BF; 
+  border-color: #7289DA; 
+} 
+ 
+.btn-discord:active, 
+.btn-discord.active, 
+.open .dropdown-toggle.btn-discord { 
+  background-image: none; 
+} 
+ 
+.btn-discord.disabled, 
+.btn-discord[disabled], 
+fieldset[disabled] .btn-discord, 
+.btn-discord.disabled:hover, 
+.btn-discord[disabled]:hover, 
+fieldset[disabled] .btn-discord:hover, 
+.btn-discord.disabled:focus, 
+.btn-discord[disabled]:focus, 
+fieldset[disabled] .btn-discord:focus, 
+.btn-discord.disabled:active, 
+.btn-discord[disabled]:active, 
+fieldset[disabled] .btn-discord:active, 
+.btn-discord.disabled.active, 
+.btn-discord[disabled].active, 
+fieldset[disabled] .btn-discord.active { 
+  background-color: #7289DA; 
+  border-color: #7289DA; 
+} 
+ 
+.btn-discord .badge { 
+  color: #7289DA; 
+  background-color: #FFFFFF; 
+}
+
+/* Twitch button */
+.btn-twitch { 
+  color: #FFFFFF; 
+  background-color: #6441A4; 
+  border-color: #6441A4; 
+} 
+.btn-twitch:hover, 
+.btn-twitch:focus, 
+.btn-twitch:active, 
+.btn-twitch.active, 
+.open .dropdown-toggle.btn-twitch { 
+  color: #FFFFFF; 
+  background-color: #533194; 
+  border-color: #6441A4; 
+}
+  
+.btn-twitch:active, 
+.btn-twitch.active, 
+.open .dropdown-toggle.btn-twitch { 
+  background-image: none; 
+}
+  
+.btn-twitch.disabled, 
+.btn-twitch[disabled], 
+fieldset[disabled] .btn-twitch, 
+.btn-twitch.disabled:hover, 
+.btn-twitch[disabled]:hover, 
+fieldset[disabled] .btn-twitch:hover, 
+.btn-twitch.disabled:focus, 
+.btn-twitch[disabled]:focus, 
+fieldset[disabled] .btn-twitch:focus, 
+.btn-twitch.disabled:active, 
+.btn-twitch[disabled]:active, 
+fieldset[disabled] .btn-twitch:active, 
+.btn-twitch.disabled.active, 
+.btn-twitch[disabled].active, 
+fieldset[disabled] .btn-twitch.active { 
+  background-color: #6441A4; 
+  border-color: #6441A4; 
+}
+   
+.btn-twitch .badge { 
+  color: #6441A4; 
+  background-color: #FFFFFF; 
+}
