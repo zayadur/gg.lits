@@ -7,4 +7,19 @@ html
     link(rel='stylesheet', href='/stylesheets/global.css')
     link(rel='stylesheet', href='/stylesheets/cover.css')
   body
+
+    nav.site-header.sticky-top
+      .container.d-flex.flex-column.flex-md-row.justify-content-between
+        a.d-none.d-md-inline-block(href='/about') About
+        a.d-none.d-md-inline-block(href='/teams') Teams
+        a.d-none.d-md-inline-block(href='/partners') Partners
+        a.d-none.d-md-inline-block(href='https://agentinq.com' target='_blank')
+          i.fas.fa-tshirt
+        a.d-none.d-md-inline-block(href='http://discord.lits.gg', target='_blank')
+          i.fab.fa-discord
+        a.d-none.d-md-inline-block(href='https://twitter.com/litsgg', target='_blank')
+          i.fab.fa-twitter
+        a.d-none.d-md-inline-block(href='https://www.youtube.com/c/lostinthesauce', target='_blank')
+          i.fab.fa-youtube
+
     block content
