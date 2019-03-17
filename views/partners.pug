@@ -1,4 +1,37 @@
 extends layout
 
 block content
-    p loading...
+  div(align='center')
+    h1
+      | Our Extended Family 
+      font(color='red') &hearts;
+  div.container-fluid
+    hr(color='#eee')
+    
+    div.sponsors
+      div.row
+        div(align='center').col-4
+          a(href='https://beta.endorse.gg' target='_blank')
+            img(src='/images/endorse.png').img-fluid
+        div.col-8
+          div.d-flex.align-items-center
+            strong Loading...
+            .spinner-border.ml-auto(role='status' aria-hidden='true')
+      hr(color='#eee')
+      div.row
+        div(align='center').col-4
+          a(href='https://thewebaround.com/ref/LostInTheSauce/' target='_blank')
+            img(src='/images/webaround.png').img-fluid
+        div.col-8
+          div.d-flex.align-items-center
+            strong Loading...
+            .spinner-border.ml-auto(role='status' aria-hidden='true')
+      hr(color='#eee')
+      div.row
+        div(align='center', style='padding-top:24px;' target='_blank').col-4
+          a(href='https://opseat.com/ref/LITS/')
+            img(src='/images/opseat.png').img-fluid
+        div.col-8
+          div.d-flex.align-items-center
+            strong Loading...
+            .spinner-border.ml-auto(role='status' aria-hidden='true')
