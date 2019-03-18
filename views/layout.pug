@@ -11,25 +11,30 @@ html
       button.navbar-toggler(type='button' data-toggle='collapse' data-target='#mainmenu' aria-controls='mainmenu' aria-expanded='false' aria-label='Toggle Menu')
         i.fas.fa-sort-amount-down
       #mainmenu.collapse.navbar-collapse
+        a.navbar-brand(href='/')
+          img.d-inline-block.align-top(src='/images/logo-0.2.png' width='30' height='30' alt='')
+          |     Lost in the Sauce
         ul.navbar-nav.mr-auto
           li.nav-item
-            a.nav-link(href='/about') About
+            a.nav-link(href='/about' title='Learn more about the organization') About
           li.nav-item
-            a.nav-link(href='/teams') Teams
+            a.nav-link(href='/teams' title='Meet the family') Teams
           li.nav-item
-            a.nav-link(href='/partners') Partners
+            a.nav-link(href='/partners' title='Meet the extended family') Partners
+          li.nav-item
+            a.nav-link(href='https://agentinq.com' target='_blank' title='Agent Inq Merchandise') Shop
         ul.navbar-nav.justify-right
           li.nav-item
-            a.nav-link(href='http://discord.lits.gg')
+            a.nav-link(href='http://discord.lits.gg' title="Discord")
               i.fab.fa-discord
           li.nav-item
-            a.nav-link(href='https://www.twitch.tv/team/lostinthesauce')
+            a.nav-link(href='https://www.twitch.tv/team/lostinthesauce' title='Twitch')
               i.fab.fa-twitch
           li.nav-item
-            a.nav-link(href='https://www.twitter.com/litsgg')
+            a.nav-link(href='https://www.twitter.com/litsgg' title='Twitter')
               i.fab.fa-twitter
           li.nav-item
-            a.nav-link(href='https://youtube.com/c/lostinthesauce')
+            a.nav-link(href='https://youtube.com/c/lostinthesauce' title='YouTube')
               i.fab.fa-youtube
 
     block content
