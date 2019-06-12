@@ -21,8 +21,15 @@ html
             a.nav-link(href='/teams' title='Meet the family') Teams
           li.nav-item
             a.nav-link(href='/partners' title='Meet the extended family') Partners
-          li.nav-item
-            a.nav-link(href='https://agentinq.com' target='_blank' title='Agent Inq Merchandise') Shop
+            li.nav-item.dropdown
+              a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                | Merchandise
+              .dropdown-menu(aria-labelledby='navbarDropdown')
+                a.dropdown-item(href='https://agentink.gg/collections/gerberbaby27' target='_blank' title='gerberbaby27\'s shop') gerberbaby27
+                a.dropdown-item(href='https://agentink.gg/collections/mind1ess' target='_blank' title='Mind1ess\' shop') Mind1ess
+                a.dropdown-item(href='https://agentink.gg/collections/rover' target='_blank' title='rover\'s shop') rover
+                .dropdown-divider
+                a.dropdown-item(href='#') Lost in the Sauce
         ul.navbar-nav.justify-right
           li.nav-item
             a.nav-link(href='http://discord.lits.gg' target='_blank' title="Discord")
