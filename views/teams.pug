@@ -2,4 +2,27 @@ extends layout
 
 block content
   div.container-fluid
-    p loading...
+    .card-deck(style='padding-top:18px;padding-bottom:18px;')
+      .card(style='background-color:#6441A4')
+        img.card-img-top(src='/images/glitch-white.png', alt='Twitch team' style='padding-top:24px;padding-left:8px;padding-right:8px;')
+        .card-body
+          p.card-text
+            | The premiere stream team. This is where it all began.
+        .card-footer
+          a.btn.btn-success(href='https://www.twitch.tv/team/lostinthesauce' target='_blank' title='Twitch team members') Roster
+          |  
+          a.btn.btn-danger(href='http://lits.gg/ste' title='Twitch team expectations') Expectations
+          |  
+          a.btn.btn-primary(href='https://forms.gle/AT9zprxLuvAL77ek8' target='_blank' title='Form to apply to Twitch team') Application
+      .card(style='background-color:#343434')
+        img.card-img-top(src='/images/bo4.png', alt='Black Ops 4' style='padding-top:24px;padding-left:8px;padding-right:8px;')
+        .card-body
+          p.card-text 
+        .card-footer
+          a.btn.btn-secondary.disabled Coming soon...
+      .card(style='background-color:#fff')
+        img.card-img-top(src='/images/youtube.png', alt='Coming soon')
+        .card-body
+          p.card-text
+        .card-footer
+          a.btn.btn-secondary.disabled Coming soon...
